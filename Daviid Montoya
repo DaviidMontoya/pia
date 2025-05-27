@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurante el antojito </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #00258b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+    nav a {
+      color: white;
+      display: inline-block;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    .section {
+      padding: 20px;
+    }
+    .menu-item {
+      margin-bottom: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+    }
+    footer {
+      background-color: #00588b;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Restaurante El Sabor</h1>
+    <p>Auténtica cocina tradicional</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#menu">Menú</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio" class="section">
+    <h2>Bienvenidos</h2>
+    <p>En Restaurante El Sabor ofrecemos los mejores platillos tradicionales preparados con ingredientes frescos y de la más alta calidad.</p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Menú</h2>
+    <div class="menu-item">
+      <h3>Enchiladas Verdes</h3>
+      <p>Tortillas rellenas de pollo bañadas en salsa verde.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Tacos al Pastor</h3>
+      <p>
+      </div>
+      <div class="menu-item">
+        <h3>Guacamole con Totopos – $80</h3>
+        <p>.Aguacate fresco triturado con tomate, cebolla, cilantro y jugo de limón, servido con totopos crujientes.
+           </p>
+      </div>
+      <div class="menu-item">
+        <h3>Sopa Azteca – $70</h3>
+        <p>Caldo de jitomate con tiras de tortilla frita, chile pasilla, aguacate, queso fresco y crema..</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chiles en Nogada – $180</h3>
+        <p>Chiles poblanos rellenos de picadillo, cubiertos con salsa de nuez y granada..</p>
+      </div>
+      <div class="menu-item">
+        <h3>Tamales de Rajas con Queso – $65</h3>
+        <p>Masa de maíz rellena de rajas de chile poblano y queso, envuelta en hoja de maíz y cocida al vapor.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Queso Fundido con Chorizo – $90</h3>
+        <p>Queso derretido acompañado de chorizo picante, servido con tortillas de harina.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cochinita Pibil – $130</h3>
+        <p>Carne de cerdo marinada en achiote y jugo de naranja agria, cocida lentamente y servida con cebolla morada encurtida..</p>
+      </div>
+      <div class="menu-item">
+        <h3>Mole Poblano con Pollo – $140</h3>
+        <p>Piezas de pollo bañadas en mole poblano, una salsa rica y compleja hecha con chiles y chocolate..</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chiles en Nogada – $180</h3>
+        <p>Chiles poblanos rellenos de picadillo, cubiertos con salsa de nuez y granada.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Carne a la Tampiqueña – $150</h3>
+        <p>Filete de res acompañado de enchilada, frijoles refritos, guacamole y rajas de chile poblano..</p>
+      </div>
+      <div class="menu-item">
+        <h3>Tlayuda Oaxaqueña – $135</h3>
+        <p>Tortilla grande y crujiente cubierta con frijoles refritos, tasajo, quesillo, lechuga, aguacate y salsa.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Pescado a la Veracruzana – $160
+        </h3>
+        <p>Filete de pescado cocinado con jitomate, aceitunas, alcaparras y hierbas aromáticas.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Bebidas</h3>
+      </div>
+      <div class="menu-item">
+        <h3>gua de Horchata – $30</h3>
+        <p>Bebida refrescante de arroz con canela y vainilla.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Agua de Jamaica – $30</h3>
+        <p>Infusión de flores de jamaica, servida fría y ligeramente endulzada..</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cerveza Nacional – $40</h3>
+        <p>Selección de cervezas mexicanas.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Margarita Clásica – $70</h3>
+        <p>Cóctel de tequila, licor de naranja y jugo de limón, servido con sal en el borde del vaso.</p>
+      </div> 
+
+    <!-- Agrega más platillos según sea necesario -->
+  </section>
+
+  <section id="galeria" class="section gallery">
+    <h2>Galería</h2>
+    <img src="cvz.jpg" alt="cervezas">
+    <img src="tamal.jpg" alt="tamal de rajas con queso">
+    <img src="queso.jpg" alt="queso Fundido">
+    <img src="chiles.jpg" alt="chiles en Nogada">
+    <img src="mole.jpg" alt="mole poblano">
+    <img src="pibil.jpg" alt="cochinita pibil">
+    <img src="tlayuda.png" alt="tlayuda">
+    <img src="agua.jpg" alt="agua de jamaica">
+    <img src="margarita.jpg" alt="margarita">
+    <img src="horchata.jpg" alt="agua de horchata">
+    <img src="pescado.jpg" alt="pescado">
+    
+    <!-- Agrega más imágenes según sea necesario -->
+  </section>
+
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p>Dirección: Calle Principal #123, linares, nuevo leon</p>
+    <p>Teléfono: (821)8211998595</p>
+    <p>Correo: contacto@el antojito</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Restaurante El Sabor. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
